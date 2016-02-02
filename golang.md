@@ -6,9 +6,9 @@
 
 ## 工具使用
 
-Golang编程过程中代码建议使用goimports[^goimports]工具进行代码统一格式化与import管理。该工具可以通过GoSublime[^GoSublime]或者go-plus[^go-plus]等工具与你的编辑器进行直接整合。
+Golang编程过程中代码建议使用[goimports](https://golang.org/x/tools/cmd/goimports)工具进行代码统一格式化与import管理。该工具可以通过[GoSublime](https://github.com/DisposaBoy/GoSublime)或者[go-plus](https://github.com/joefitzgerald/go-plus)等工具与你的编辑器进行直接整合。
 
-代码单元测试，统一使用goconvey[^goconvey]工具进行测试管理。
+代码单元测试，统一使用[goconvey](https://github.com/smartystreets/goconvey)工具进行测试管理。
 
 ## 命名规范
 
@@ -133,11 +133,3 @@ func (f *Foo) Location() (lat, long float64, err error)
 1. [Effective Go](https://golang.org/doc/effective_go.html)
 
 2. [Google Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
-
-[^goimports]: [https://golang.org/x/tools/cmd/goimports](https://golang.org/x/tools/cmd/goimports)
-
-[^goconvey]: [https://github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey)
-
-[^GoSublime]: [https://github.com/DisposaBoy/GoSublime](https://github.com/DisposaBoy/GoSublime)
-
-[^go-plus]: [https://github.com/joefitzgerald/go-plus](https://github.com/joefitzgerald/go-plus)
